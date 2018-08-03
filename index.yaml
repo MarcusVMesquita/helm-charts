@@ -3,21 +3,11 @@ entries:
   postgresql:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-08-03T17:52:15.22947563-03:00
-    description: Chart that deploy PostgreSQL + PGAdmin
-    digest: e77db270841a60fed80a6ec1f475b5f72b574e8520267e6b5cec46bb50e5e8a5
+    created: 2018-08-03T18:12:52.287938696-03:00
+    description: PostgreSQL v10 and PgAdmin
+    digest: 5c6b4f32f486285a101a96e35b17112f93b14a5b53ed96a9061da5308beb28fb
     name: postgresql
     urls:
     - postgresql-0.1.0.tgz
     version: 0.1.0
-  taf-standard:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: 2018-08-03T17:52:15.231724501-03:00
-    description: Protheus standard deploy
-    digest: cc4fce24e0069066617343fad1a7ece4a3867b9a25a8a1112976654641689680
-    name: taf-standard
-    urls:
-    - taf-standard-v0.0.1.tgz
-    version: v0.0.1
-generated: 2018-08-03T17:52:15.229038213-03:00
+generated: 2018-08-03T18:12:52.287613529-03:00
