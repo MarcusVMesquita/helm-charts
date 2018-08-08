@@ -12,7 +12,7 @@ spec:
         app: postgresql
     spec:
       volumes:
-      - name: volume
+      - name: postgres-data
         persistentVolumeClaim:
           claimName: az-postgresql-volume
       containers:
