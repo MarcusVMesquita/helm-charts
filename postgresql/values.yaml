@@ -1,0 +1,11 @@
+# PostgreSQL
+postgresql:
+  dbname: 'POSTGRESQL_DB'
+  username: 'postgres'
+  password: 'postgres'
+
+# PgAdmin
+pgadmin:
+  email: 'test@totvs.com.br'
+  password: 'test'
+  
