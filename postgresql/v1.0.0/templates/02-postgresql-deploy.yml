@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: postgtesql
+  namespace:  {{ .Release.Name }}
 spec:
   replicas: 1
   selector:
@@ -30,6 +31,6 @@ spec:
           value: "{{ .Values.postgresql.dbname }}"
         volumeMounts:
           - name: postgres-data
-            mountPath: /var/lib/postgresql/data
+            mountPath: /var/lib/postgresql
 
         
