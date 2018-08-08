@@ -12,10 +12,9 @@ spec:
         app: postgresql
     spec:
       volumes:
-      - name: postgres-data
-        hostPath: 
-          path: /data/var/lib/postgresql/data/
-          type: Directory
+      - name: volume
+        persistentVolumeClaim:
+          claimName: az-postgresql-volume
       containers:
       - name: postgresql
         image: postgres:10.4-alpine
