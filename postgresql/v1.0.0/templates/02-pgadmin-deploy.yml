@@ -17,11 +17,11 @@ spec:
       - name: pgadmin
         image: dpage/pgadmin4:3.1
         ports:
-        - containerPort: 80
+        - containerPort: 8080
         env:
         - name: PGADMIN_DEFAULT_EMAIL
           value: '{{ .Values.pgadmin.email }}'
         - name: PGADMIN_DEFAULT_PASSWORD
           value: '{{ .Values.pgadmin.password }}'
         - name: PGADMIN_PORT
-          value: '80'
+          value: '8080'
